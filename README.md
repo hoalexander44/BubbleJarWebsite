@@ -2,3 +2,5 @@
 
 ## Our Art
 
+## Who we are
+
