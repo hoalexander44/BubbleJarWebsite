@@ -1,2 +1,4 @@
-# BubbleJarWebsite
-Bubble Jar Website
+# Welcome to Bubble Jar!
+
+## Our Art
+
