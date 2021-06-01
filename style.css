@@ -63,7 +63,7 @@ body {
   margin: auto;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   font-size: 3rem;
   background-image: url("./images/h.png");
   background-size: 100px 100px;
@@ -75,7 +75,7 @@ body {
   margin: auto;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   font-size: 3rem;
   background-image: url("./images/h.png");
   background-size: 100px 100px;
@@ -98,7 +98,7 @@ a {
   text-align: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
   font-size: 3rem;
 
   background-image: url("./images/h.png");
