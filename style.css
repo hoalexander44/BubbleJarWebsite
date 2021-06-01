@@ -136,6 +136,16 @@ a {
   justify-content: space-evenly;
 }
 
+.rightAlign{
+  text-align:right;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.leftAlign{
+  text-align: left;
+  padding: 20px;
+}
 /*#blurb{
   font-family: "Amatic SC", sans-serif;
   display: grid;
