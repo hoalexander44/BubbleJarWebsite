@@ -122,6 +122,15 @@ html {
 	margin-bottom: 30px;
 }
 
+.thumbnail div:hover{
+	border-style: solid ;
+	border-radius: 25px;
+	color: #5b5752;
+	object-fit: cover;
+	padding: 4px;
+}
+
+
 .thumbnail_img {
 	object-position: top;
     width: 100%;
@@ -132,6 +141,7 @@ html {
 	margin-bottom: 0;
 	border-radius: 25px;
 }
+
 
 .thumbnail_text {
   position: absolute;
@@ -398,6 +408,10 @@ html {
 	
 	.shortcut{
 		margin: auto;
+	}
+	
+	.shortcut a:hover{
+		color: gray;
 	}
 	
 	.shortcut a{
