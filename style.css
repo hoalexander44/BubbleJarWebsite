@@ -236,6 +236,7 @@ a{
 	margin: 2vw;
 	font-size: 2vh;
 	color: white;
+	display: none;
 }
 
 .content_simple{
@@ -378,6 +379,7 @@ a{
 		margin: 25px;
 		font-size: 40px;
 		color: white;
+		display: inline;
 	}
 	
 	/* .button { */
