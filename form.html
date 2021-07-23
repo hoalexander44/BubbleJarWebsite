@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Contact Form</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<link href="./fontAwesome/css/all.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-		
-		
-<!-- https://docs.google.com/forms/d/e/1FAIpQLSe1iuXOyvrgRo3N-QNA2m8gDvLlPgm4jx5yV-qBsHEA3TDW_Q/viewform?usp=pp_url& -->
-<!-- entry.916886443=GarbageName& -->
-<!-- entry.1735806919=GarbageEmail& -->
-<!-- entry.1483856065=GarbageSubject& -->
-<!-- entry.944456340=GarbageMessage -->
-
-	</head>
-	
-	<body class="content_simple">
-	
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="./fontAwesome/css/all.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+</head>
+<body class ="content_simple">
 	<div class="links">
 				
 		<div class="shortcut">
@@ -38,51 +29,27 @@
 		</div>
 		
 	</div>
-	
+
 	<div class="contact_form">
-		<form id="gform" name="gform" target="hidden_iframe" 
-		onsubmit="submitted=true;"
-		action="https://docs.google.com/forms/d/e/1FAIpQLSe1iuXOyvrgRo3N-QNA2m8gDvLlPgm4jx5yV-qBsHEA3TDW_Q/formResponse?">
-		
-			<label for="entry.916886443">Name</label><br>
-			<input class="textInput" type="text" name="entry.916886443" id="entry.916886443"><br>
-			
-			<label for="entry.1735806919">Email</label><br>
-			<input class="textInput" type="text" name="entry.1735806919" id="entry.1735806919"><br>
-			
-			<label for="entry.1483856065">Subject</label><br>
-			<input class="textInput" type="text" name="entry.1483856065" id="entry.1483856065"><br>
-			
-			<label for="entry.944456340">Message </label><br>
-			<textarea name="entry.944456340" id="entry.944456340" rows="15" cols="80"></textarea><br>
-			
-			<input class="submitButton" type="submit" name="" value="submit">
-			
-		</form>
-		
-		<iframe name="hidden_iframe" id="hidden_iframe" 
-		style="display:none;" onload="if(submitted){}"></iframe>
-		
+	<form action="https://formsubmit.co/bubblejarart@gmail.com" method="POST">
+		 <input class="textInput" type="hidden" name="_subject" value="Bubble Jar Contact Form Email"><br>
+
+		 <label for="name">Name</label><br>
+	     <input class="textInput" type="text" name="name" placeholder="Name" required><br>
+
+		 <label for="email">Email</label><br>
+		 <input class="textInput" type="email" name="email" placeholder="Email Address" required><br>
+
+		 <label for="email">subject</label><br>
+		 <input class="textInput" type="text" name="subject" placeholder="Subject" required><br>
+
+		 <label for="email">message</label><br>
+	     <textarea type="text" name="message" placeholder="Message" required rows="15" ></textarea><br>
+
+	     <button class="submitButton" type="submit">Send</button>
+
+		 <input class="textInput" type="hidden" name="_next" value="https://bubblejarart.com//thankyou.html"><br>
+	</form>
 	</div>
-		
-		<script
-		src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-		crossorigin="anonymous">
-		
-		<script type="text/javascript">
-			var submitted = false;
-		</script>
-		
-		<script type="text/javascript">
-			$('#gform').on('submit', function(e){
-				$('#gform *').fadeOut(2000);
-				$('#gform').prepend('Your submission has been processed. Thank you!');
-			});
-		</script>
-		</script>
-		
-		
-		
-	</body>
+</body>
 </html>
