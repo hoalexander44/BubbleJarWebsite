@@ -1,0 +1,207 @@
+<head>
+    <title>Bubble Jar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="./fontAwesome/css/all.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+    <style>
+
+    	.twoRow{
+    		grid-template-columns: 1fr 1fr;
+    	}
+
+    	.oneRow{
+    		grid-template-columns: 1fr;
+    	}
+
+		.wrapper{
+			display:grid;
+			/*grid-template-columns: 1fr 1fr;*/
+			grid-auto-rows: minmax(0vw, auto);
+			grid-gap:0.5em;
+			justify-items: stretch; /* width addjustment of box*/
+			align-items: stretch; /* heigh adjustment of box */
+			margin-left: 2vw;
+			margin-right: 2vw;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			/*background-color: red;*/
+		}
+
+		.wrapper div{
+			text-align: center;
+			justify-self: center;
+			border: 1px black solid;
+		}
+
+		.wrapper > div:nth-child(odd){
+			/*background:#333;*/
+		}
+
+		.wrapper img{
+			height: 40vw;
+			border-radius: 25px;
+		}
+
+
+
+
+    </style>
+</head>
+
+<body class="content" >
+	
+	<div class="front">
+	
+		<h1>Welcome to Bubble Jar Art</h1>
+		<p>Digital Art and Handmade Crafts</p>
+		
+		<img src="images/Logo_Round_Color.svg" class="img-logo" alt="logo">
+		
+		<div class="links">
+					
+			<div class="shortcut">
+				<a href="./index.html"> Home </a>
+			</div>
+			
+			<div class="shortcut">
+				<a href="./form.html"> Contact Us </a>
+			</div>
+			
+			<div class="shortcut">
+				<a href="./prints.html"> Prints </a>
+			</div>
+			
+			<div class="shortcut">
+				<a href="./plushies.html"> Plushies </a>
+			</div>
+
+			<div class="shortcut">
+				<a href="./index.html"> Commissions </a>
+			</div>
+				
+			<div class="shortcut">
+				<a href="./index.html"> About </a>
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+
+
+<!-- 	<h1 style="font-family: 'Amatic SC', sans-serif; text-align:center; font-size: 70px">
+	About Us
+	</h1>
+
+
+
+	<div class="wrapper oneRow" style="margin: 15px;">
+
+		<div style=" padding:4px; font-size: 40px; font-family: helvetica">
+			
+		In December of 2019, we decided to combine our skills and passion to create our own company,
+		Bubble Jar. At Bubble Jar, we are dedicated to creating and selling high-quality handmade arts
+		and crafts. We began the business selling handmade plushies and have since expanded into also
+		selling prints, stickers, buttons, pins, apparel, and much more! You can find us on Etsy,
+		Instagram, and sometimes at local craft shows or conventions.
+
+
+		</div>
+
+
+	</div>
+
+
+
+	<div class="wrapper twoRow">
+
+		<div style=" padding:4px;">
+
+			<img src="images/profOne.jpg">
+
+
+
+		</div>
+
+
+		<div style=" padding:4px; font-size: 40px">
+
+			Hi, my name is Lauren, and I am one of the founders of Bubble Jar! I am currently working on
+			obtaining my BFA in Studio Arts from West Chester University of Pennsylvania. I love creating,
+			whether that be drawing, sewing, woodworking, or anything in between. I hope through the
+			creation of Bubble Jar, I can share my love for making with all of you. Thanks for stopping by!				
+
+
+		</div>
+
+	</div> -->
+
+
+
+
+	
+	<div class="OurArt">
+		<h1> Our Art </h1>
+			<a href="./prints.html" style="">
+				<div class="thumbnail">
+					<!-- <p> Prints </p> -->
+					<div>
+						<img class="thumbnail_img" src="images/prints/fishgirl.png">
+						<p class="thumbnail_text"> Prints </p>
+					</div>
+				</div>	
+			</a>
+			
+			<a href="./plushies.html" style="">
+			<div class="thumbnail">
+				<!-- <p> Plushies </p> -->
+				<div>
+					<img class="thumbnail_img" src="images/plushies/2.JPG">
+					<p class="thumbnail_text"> Plushies </p>
+				</div>
+			</div>
+			</a>
+	</div>
+	
+
+	
+	<div class="contact">
+		<h1> Socials </h1>
+		
+		<a href="./form.html" style="">
+			<div class="thumbnail">
+				<div>
+					<img class="thumbnail_img" src="images/prints/old/2.png">
+					<p class="thumbnail_text"> Contact Us! </p>
+				</div>
+			</div>	
+		</a>
+				
+		<div class="contact_link">
+        <a href="mailto:BubbleJarArt@gmail.com" style="" target="_blank">
+            <i class="far fa-envelope"></i> <!-- uses regular style -->
+        </a>
+
+        <a href="https://www.instagram.com/bubblejar.art/" style="" target="_blank">
+            <i class="fab fa-instagram"></i> <!-- uses brands style -->
+        </a>
+		
+        <a href="https://mobile.twitter.com/bubblejarart/" style="" target="_blank">
+            <i class="fab fa-twitter"></i> <!-- uses brands style -->
+        </a>
+		
+        <!-- <a href="https://www.instagram.com/bubblejar.art/" style="" target="_blank"> -->
+            <!-- <i class="fa fa-shopping-cart"></i> <!-- uses brands style --> 
+        <!-- </a> -->
+		
+		<p> bubblejarart@gmail.com </p>
+		</div>
+		
+	</div>
+	
+
+</body>

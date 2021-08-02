@@ -1,0 +1,434 @@
+@charset "UTF-8";
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* for background */
+.content{
+   background-image: url(images/h.png);
+   background-size: 100px 100px;
+   background-attachment: fixed;
+   background-color: #f8f3ea;
+}
+
+/* LINK BANNER */
+.link_banner{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #312648;
+  z-index: 1;
+  column-count: 5;
+  text-align: center;
+}
+
+.link_item{
+	padding: 20px;
+	color:white;
+	z-index: 2;
+	font-family: "Amatic SC", sans-serif;
+	font-size: 30px;
+	width: 20%;
+	margin:auto;
+	
+}
+
+
+.front{
+  font-family: "Amatic SC", sans-serif;
+  background-color: #56bbc1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23dbdbdb' fill-opacity='0.28'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: white;
+  text-align: center;
+  height: 812px;
+}
+
+ .front h1{
+	font-size: 20vw;
+	padding-top: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	animation: fadeIn 1s, move 1s;
+}
+
+.front p{
+	font-size: 10vw;
+	animation: fadeIn 1s;
+}
+
+.img-logo{
+	margin-top: 20px;
+	width: 250px;
+	animation: fadeIn 1s;
+}
+
+/* ABOUT */ 
+
+.about{
+  font-family: "Amatic SC", sans-serif;
+  color: #5b5752;
+  text-align: center;
+  height:100%; 
+
+}
+
+ .about h1 {
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.about p{
+	padding-top: 25px;
+	font-size: 40px;
+}
+
+
+/* PORTFOLIO MAIN*/
+
+
+.OurArt{
+  font-family: "Amatic SC", sans-serif;
+  color: #5b5752;
+  text-align: center;
+  height:500px; 
+  text-align: center;
+  
+}
+
+ .OurArt h1 {
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.OurArt p{
+	padding-top: 25px;
+	font-size: 40px;
+}
+
+.thumbnail {
+	position: relative;
+	width: 80vw;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.thumbnail div:hover{
+	border-style: solid ;
+	border-radius: 25px;
+	color: #5b5752;
+	object-fit: cover;
+	padding: 4px;
+}
+
+
+.thumbnail_img {
+	object-position: top;
+    width: 100%;
+	height: 200px;
+	object-fit: cover;
+	filter: brightness(50%);
+	margin: 0;
+	margin-bottom: 0;
+	border-radius: 25px;
+}
+
+
+.thumbnail_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);	
+  color: white;
+  font-size: 60px;
+  animation: fadeIn 1s;
+  font-family: comfortaa;
+}
+
+.thumbnail_text a{
+	text-decoration: none;
+	color: white;	
+}
+
+/* CONTACT */
+
+
+.contact{
+  font-family: "Amatic SC", sans-serif;
+  color: #5b5752;
+  text-align: center;
+   
+ 
+}
+
+ .contact h1 {
+	font-size: 50px;
+	padding-top: 100px;
+}
+
+.contact p{
+	padding-top: 25px;
+	font-size: 40px;
+}
+
+.contact_link{
+	font-size: 100px;
+}
+
+.contact_link a{
+	text-decoration: none;
+	color: #5b5752;
+}
+
+
+/* PORTFOLIO GRID */
+
+.portfolio_header{
+	height: 10%;
+	text-align: center;
+	font-family: "Amatic SC", sans-serif;
+	color: white;
+	padding-top: 10px;
+}
+
+ .portfolio_header h1 {
+	font-size: 8vh;
+	animation: fadeIn 1s, move 1s;
+	letter-spacing: 8px;
+}
+
+.content_simple{
+	background-color: #56bbc1;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23dbdbdb' fill-opacity='0.28'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.content_simple{
+	background-color: #56bbc1;
+	
+}
+
+.portfolio_folder{
+	text-align: center;
+	padding: 10px;
+}
+
+.portfolio_picture{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+
+
+/* BUTTONS */
+.button {
+	width: 20vw;
+	height: 5vh;
+	margin-bottom: 30px;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.button_text {
+  font-size: 8vw;
+  font-family: "Amatic SC", sans-serif;
+  margin: auto;
+}
+
+
+.menu{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 1;
+	opacity: 0;
+}
+
+
+/* FORM */
+.contact_form{
+	text-align: center;
+	font-family: "Amatic SC", sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+.textInput{
+	border-radius: 5px;
+	width: 70%;
+	height: 50px;
+	font-size: 30px;
+}
+
+.contact_form textArea{
+	border-radius: 5px;
+	width: 80%;
+	font-size: 25px;
+}
+
+.submitButton{
+	border: none;
+	width: 200px;
+	height: 100px;
+	font-family: "Amatic SC", sans-serif;
+	font-size: 50px;
+	
+}
+
+
+/* ANIMATION */
+
+.fade-in {
+	animation: fadeIn 2s;
+}
+
+
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+	
+}
+
+
+@keyframes move {
+	0% {
+		left:0px;
+	}
+	
+	50% {
+		left:1000px;
+	}
+	
+}
+
+
+.links{
+	display: none;
+}
+
+
+/* for tablet and desktop */
+@media only screen and (min-width: 768px){
+
+
+	.img-logo{
+		padding: 30px;
+		width: 500px;
+		height: 500px;
+		
+		
+	}
+
+	.front h1 {
+		font-size: 110px;
+	}
+	
+	.front p{
+		font-size: 60px;
+	}
+	
+	.front {
+		height: 1080px;
+	}
+	
+	.OurArt {
+		height: 540px;
+	}
+	
+	.OurArt h1{
+		font-size: 80px;
+	}
+	
+	.contact {
+		height: 500px;
+	}
+	
+	.thumbnail {
+		width: 500px;
+	}
+	
+	.portfolio_header{
+		height: 200px;
+		text-align: center;
+		font-family: "Amatic SC", sans-serif;
+		color: white;
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+	
+	 .portfolio_header h1 {
+		font-size: 150px;
+		animation: fadeIn 1s, move 1s;
+		letter-spacing: 8px;
+	}
+	
+	
+	/* Portfolio Stuff */
+	.portfolio_folder{
+		text-align: center;
+		padding: 10px;
+	}
+
+	.portfolio_picture{
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	
+	.links{
+		font-size: 40px;
+		color: white;
+		display: inline;
+		text-align: center;
+		font-family: "Amatic SC", sans-serif;
+		color: black;
+		display: flex;
+	}
+	
+	.shortcut{
+		margin: auto;
+	}
+	
+	.shortcut a:hover{
+		color: gray;
+	}
+	
+	.shortcut a{
+		color: white;
+		text-decoration: none;
+		display: inline;
+	}
+	
+	.textInput{
+		border-radius: 5px;
+		width: 50%;
+		height: 50px;
+		font-size: 30px;
+	}
+	
+}
+
+
+
+
