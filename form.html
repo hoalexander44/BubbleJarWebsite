@@ -14,8 +14,33 @@
     <link rel="stylesheet" type="text/css" href="./newstyle.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" type="text/css" href="./navbar.css">
+
+	<style>
+		.newButton{
+			font-family: comfortaa;
+			border: none;
+			background-color: white;
+			color: #5a5651;
+			padding: 2vw;
+			font-size: 2vw;
+		}
+
+		.bottomPadding{
+			padding-bottom: 2vw;
+		}
+
+		@media only screen and (max-width: 768px){
+			.newButton{
+				font-size: 6vw;
+				padding: 5vw;
+			}
+		}
+
+	</style>
 </head>
-<body class ="content_simple">
+
+
+<body style="background-color: #5a5651">
 <header class="mobile_only" style="padding-top: 1vw; padding-bottom: 1vw">
   <h1 class="logo">Bubble Jar Art </h1>
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -25,7 +50,6 @@
       <li><a href="./AboutUs.html">About</a></li>
       <li><a href="./prints.html">Prints</a></li>
       <li><a href="./plushies.html">Plushies</a></li>
-      <li><a href="./trinkets.html">Trinkets</a></li>
       <li><a href="./commissions.html">Commissions</a></li>
       <li><a href="./form.html">Contact</a></li>
     </ul>
@@ -37,7 +61,7 @@
 
 
 <div class="section desktop_only desktopNavBar clickableTransition" style="background-color: #e59090; padding-bottom: 2vw; font-size: 2vw;">
-	<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr">
+	<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr">
 		<div>
 			<a class="" href="./index.html">Home</a>
 		</div>
@@ -54,9 +78,6 @@
 			<a class="" href="./plushies.html">Plushies</a>				
 		</div>
 
-		<div>
-			<a class="" href="./trinkets.html">Trinkets</a>				
-		</div>
 
 		<div>
 			<a href="./commissions.html">Commissions</a>
@@ -69,7 +90,7 @@
 	</div>
 </div>
 
-	<div class="contact_form">
+	<div class="contact_form mobile_heading bottomPadding" style=" font-family: comfortaa">
 	<form action="https://formsubmit.co/bubblejarart@gmail.com" method="POST">
 		 <!-- <input class="textInput" type="hidden" name="_subject" value="Bubble Jar Contact Form Email"><br> -->
 
@@ -82,10 +103,10 @@
 		 <label for="_subject">Subject</label><br>
 		 <input class="textInput" type="text" name="_subject" placeholder="Subject" required><br>
 
-		 <label for="email">message</label><br>
+		 <label for="email">Message</label><br>
 	     <textarea type="text" name="message" placeholder="Message" required rows="15" ></textarea><br>
 
-	     <button class="submitButton" type="submit">Send</button>
+	     <button class="newButton" type="submit">Send</button>
 
 		 <input class="textInput" type="hidden" name="_next" value="https://bubblejarart.com//thankyou.html"><br>
 	</form>

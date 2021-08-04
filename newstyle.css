@@ -290,8 +290,16 @@
 		padding-top: 8vw;
 	}
 
+    .mobile_heading{
+    	padding-top: 2vw;
+    }
+
 
 	@media only screen and (max-width: 768px){
+	    .mobile_heading{
+	    	padding-top: 12vw;
+	    }
+
 		.twoRow{
 			grid-template-columns: 1fr;
 		}
