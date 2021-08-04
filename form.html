@@ -29,11 +29,35 @@
 			padding-bottom: 2vw;
 		}
 
+		.attachImage{
+			font-size: 2vw;
+			padding: 4vw;
+			padding-left: 35vw;
+			width: 100%;
+		}
+
+		.labelTitle{
+			font-size: 2vw;
+		}
+
 		@media only screen and (max-width: 768px){
 			.newButton{
 				font-size: 6vw;
 				padding: 5vw;
 			}
+
+
+			.attachImage{
+				font-size: 6vw;
+				padding: 5vw;
+				padding-left: 10vw;
+			}
+
+			.labelTitle{
+				font-size: 6vw;
+			}
+
+
 		}
 
 	</style>
@@ -94,17 +118,19 @@
 	<form action="https://formsubmit.co/bubblejarart@gmail.com" method="POST">
 		 <!-- <input class="textInput" type="hidden" name="_subject" value="Bubble Jar Contact Form Email"><br> -->
 
-		 <label for="name">Name</label><br>
+		 <label class="labelTitle" for="name">Name</label><br>
 	     <input class="textInput" type="text" name="name" placeholder="Name" required><br>
 
-		 <label for="email">Email</label><br>
+		 <label class="labelTitle" for="email">Email</label><br>
 		 <input class="textInput" type="email" name="email" placeholder="Email Address" required><br>
 
-		 <label for="_subject">Subject</label><br>
+		 <label class="labelTitle" for="_subject">Subject</label><br>
 		 <input class="textInput" type="text" name="_subject" placeholder="Subject" required><br>
 
-		 <label for="email">Message</label><br>
+		 <label class="labelTitle" for="email">Message</label><br>
 	     <textarea type="text" name="message" placeholder="Message" required rows="15" ></textarea><br>
+
+		 <input class="attachImage" type="file" name="attachment" accept="image/png, image/jpeg"> <br>
 
 	     <button class="newButton" type="submit">Send</button>
 
