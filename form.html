@@ -4,39 +4,70 @@
 	<meta charset="utf-8">
 	<title>Contact Form</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="./fontAwesome/css/all.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Zen Loop' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Encode Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./newstyle.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./navbar.css">
 </head>
 <body class ="content_simple">
-	<div class="links">
-				
-		<div class="shortcut">
-			<a href="./index.html"> Home </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./form.html"> Contact Us </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./prints.html"> Prints </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./plushies.html"> Plushies </a>
+<header class="mobile_only" style="padding-top: 1vw; padding-bottom: 1vw">
+  <h1 class="logo">Bubble Jar Art </h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./AboutUs.html">About</a></li>
+      <li><a href="./prints.html">Prints</a></li>
+      <li><a href="./plushies.html">Plushies</a></li>
+      <li><a href="./trinkets.html">Trinkets</a></li>
+      <li><a href="./commissions.html">Commissions</a></li>
+      <li><a href="./form.html">Contact</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+
+<div class="section desktop_only desktopNavBar clickableTransition" style="background-color: #e59090; padding-bottom: 2vw; font-size: 2vw;">
+	<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr">
+		<div>
+			<a class="" href="./index.html">Home</a>
 		</div>
 
-		<div class="shortcut">
-			<a href="./index.html"> Commissions </a>
+		<div>
+			<a class="" href="./AboutUs.html">About</a>			
 		</div>
-			
-		<div class="shortcut">
-			<a href="./index.html"> About </a>
+
+		<div>
+			<a class="" href="./prints.html">Prints</a>			
 		</div>
-		
+
+		<div>
+			<a class="" href="./plushies.html">Plushies</a>				
+		</div>
+
+		<div>
+			<a class="" href="./trinkets.html">Trinkets</a>				
+		</div>
+
+		<div>
+			<a href="./commissions.html">Commissions</a>
+		</div>
+
+		<div>
+			<a class="" href="./form.html">Contact</a>				
+		</div>
+
 	</div>
+</div>
 
 	<div class="contact_form">
 	<form action="https://formsubmit.co/bubblejarart@gmail.com" method="POST">

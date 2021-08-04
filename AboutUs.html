@@ -6,7 +6,40 @@
     <link href="./fontAwesome/css/all.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <style>
 
+    .paragraphDescription{
+    	width: 38vw; 
+    	font-family: comfortaa; 
+    	color: white;
+    	font-size: 2vw;
+    }
+
+    .sectionTitle h2{
+    	font-size: 4vw;
+    }
+
+ 	@media only screen and (max-width: 768px){
+ 		.paragraphDescription {
+ 			font-size: 4vw;
+     		width: 70vw; 
+ 		}
+
+ 		.profileImage {
+ 			width: 60vw;
+ 			height: 60vw;
+ 		}
+
+	    .sectionTitle h2{
+	    	font-size: 8vw;
+	    }
+
+
+
+ 	}   	
+
+
+    </style>
 
 </head>
 
@@ -21,8 +54,7 @@
       <li><a href="./AboutUs.html">About</a></li>
       <li><a href="./prints.html">Prints</a></li>
       <li><a href="./plushies.html">Plushies</a></li>
-      <li><a href="./trinkets.html">Trinkets</a></li>
-      <li><a href="#">Commissions</a></li>
+      <li><a href="./commissions.html">Commissions</a></li>
       <li><a href="./form.html">Contact</a></li>
     </ul>
   </nav>
@@ -33,7 +65,7 @@
 
 
 	<div class="section desktop_only desktopNavBar clickableTransition" style="background-color: #e59090; padding-bottom: 2vw; font-size: 2vw;">
-		<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr">
+		<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr">
 			<div>
 				<a class="" href="./index.html">Home</a>
 			</div>
@@ -51,11 +83,7 @@
 			</div>
 
 			<div>
-				<a class="" href="./trinkets.html">Trinkets</a>				
-			</div>
-
-			<div>
-				<a class="" href="#">Commissions</a>
+				<a class="" href="./commissions.html">Commissions</a>
 			</div>
 
 			<div>
@@ -66,7 +94,7 @@
 	</div>
 
 
-	<div class="section" style="background-color: #e59090">
+	<div class="section" style="background-color: #d66f6f">
 		<h2 style="color: white"> About Us! </h2>
 		
 		<div class="grid twoRow" style="">
@@ -75,11 +103,11 @@
 				<img style="" class="croppedImg" src="images/plushies/new/17.png">
 			</div>	
 
-			<div class="paragraphDescription" style="width: 38vw; font-size: 1.8vw; font-family: comfortaa; color: white">
+			<div class="paragraphDescription" style="">
 				Hi, my name is Lauren, and I am one of the founders of Bubble Jar Art! I am currently working on obtaining my BFA in Studio Arts from West Chester University of Pennsylvania. I love creating, whether that be drawing, sewing, woodworking, or anything in between. I hope through the creation of Bubble Jar, I can share my love for making with all of you. Thanks for stopping by 
 			</div>
 
-			<div class="paragraphDescription" style="width: 38vw; font-size: 2.0vw; font-family: comfortaa; color: white">
+			<div class="paragraphDescription desktop_only" style="">
 				Hi, my name is Alex! I am the OTHER founder of Bubble Jar Art! I am a student at Drexel University completing my Bachelor’s Degree in Computer Science with a concentration in game development. I specialize in digital illustration, including character art, concept designs, animations, and fan art! Thanks for coming!  
 			</div>
 
@@ -87,6 +115,11 @@
 
 				<img style="" class="croppedImg" src="images/profTwo.jpg">
 			</div>	
+
+			<div class="paragraphDescription mobile_only" style="">
+				Hi, my name is Alex! I am the OTHER founder of Bubble Jar Art! I am a student at Drexel University completing my Bachelor’s Degree in Computer Science with a concentration in game development. I specialize in digital illustration, including character art, concept designs, animations, and fan art! Thanks for coming!  
+			</div>
+
 		</div>
 
 	</div>
@@ -94,8 +127,8 @@
 
 	<div class="section" style="background-color: #9beff4; padding-bottom: 2vw">
 			<div class="socials">
-				<div>
-				<h2 style="text-align: left; margin-left: 4vw; font-size: 5vw"> What is Bubble Jar Art? </h2>
+				<div class="sectionTitle">
+				<h2 style="text-align: left; margin-left: 4vw;"> What is Bubble Jar Art? </h2>
 				</div>
 
 				<div style="text-align: left; margin-right: 4vw; margin-left: 4vw">
