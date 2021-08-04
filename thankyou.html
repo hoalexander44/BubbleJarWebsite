@@ -1,46 +1,82 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Thank You!</title>
+	<title>Thank you!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="./fontAwesome/css/all.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Zen Loop' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Encode Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./newstyle.css">
+	<link rel="stylesheet" type="text/css" href="./navbar.css">
+
+	<style>
+		.thankyou h2{
+			padding-top: 3vw;
+		}
+
+	@media only screen and (max-width: 768px){
+		.thankyou h2{
+			padding-top: 20vw;
+		}
+	}
+	</style>
 </head>
-<body class="content_simple">
-	<div class="links">
-				
-		<div class="shortcut">
-			<a href="./index.html"> Home </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./form.html"> Contact Us </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./prints.html"> Prints </a>
-		</div>
-		
-		<div class="shortcut">
-			<a href="./plushies.html"> Plushies </a>
-		</div>
+<body class="content_simple" style="background-color: #5a5651">
+	<header class="mobile_only" style="padding-top: 1vw; padding-bottom: 1vw ; background-color: #e59090;" >
+	  <h1 style="font-family: Raleway" class="logo">Bubble Jar Art </h1>
+	  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+	  <nav style="background-color: #e59090">
+	    <ul>
+	      <li><a href="./index.html">Home</a></li>
+	      <li><a href="./AboutUs.html">About</a></li>
+	      <li><a href="./prints.html">Prints</a></li>
+	      <li><a href="./plushies.html">Plushies</a></li>
+	      <li><a href="./commissions.html">Commissions</a></li>
+	      <li><a href="./form.html">Contact</a></li>
+	    </ul>
+	  </nav>
+	  <label for="nav-toggle" class="nav-toggle-label">
+	    <span></span>
+	  </label>
+	</header>
 
-		<div class="shortcut">
-			<a href="./index.html"> Commissions </a>
+
+	<div class="section desktop_only desktopNavBar clickableTransition" style="background-color: #e59090; padding-bottom: 2vw; font-size: 2vw;">
+		<div class="grid" style=" grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr">
+			<div>
+				<a class="" href="./index.html">Home</a>
+			</div>
+
+			<div>
+				<a class="" href="./AboutUs.html">About</a>			
+			</div>
+
+			<div>
+				<a class="" href="./prints.html">Prints</a>			
+			</div>
+
+			<div>
+				<a class="" href="./plushies.html">Plushies</a>				
+			</div>
+
+			<div>
+				<a href="./commissions.html">Commissions</a>
+			</div>
+
+			<div>
+				<a class="" href="./form.html">Contact</a>				
+			</div>
+
 		</div>
-			
-		<div class="shortcut">
-			<a href="./index.html"> About </a>
-		</div>
-		
 	</div>
 
-	<div class="front">
-	<h1>Thank you!</h1>
-	<h1>We will get back to you soon!</h1>
+	<div class="section thankyou" style="background-color: #5a5651;color: white; height">
+		<h2> Thank you! <br> We will get back to you soon! </h2>
 	</div>
+
 </body>
 </html>
