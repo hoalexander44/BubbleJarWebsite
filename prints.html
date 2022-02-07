@@ -48,7 +48,7 @@
 			/*background:#333;*/
 		}
 
-		.wrapper img{
+		.wrapper .baseImage img:first-child{
 			width:100%;
 			height:100%;
 		}
@@ -113,7 +113,30 @@
 			padding: 0px;
 		}
 
+		.shrinkWrap{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.6);
+			opacity: 0;
+			transition: opacity 0.4s;
 
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			color: white;
+			font-family: comfortaa;
+			font-size: 3vw;
+		}
+		
+		.baseImage{
+			position: relative;
+			width: 100%; 
+			height:100%;
+		}
 
 
 
@@ -189,30 +212,36 @@
 
 
 	<div class="wrapper horizontal">
-		<div>
-		<img class="" src="images/prints/attackontitan.png">
+		<div class="baseImage">
+			<img class="" src="images/prints/attackontitan.png">
+			<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/chainsaw.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 	</div>
 
 	<div class="wrapper fourRow">
-		<div>
+		<div class="baseImage"> 
 		<img class="" src="images/prints/dabi.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/todoroki.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/mikey.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 		
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/oddtaxi.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
 <!-- 		<div>
@@ -223,56 +252,67 @@
 
 
 	<div class="wrapper horizontal">	
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/mob.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/fishgirl.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 	</div>
 
 	<div class="wrapper vertical">
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/ramen.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/wizardgirl.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/coffee.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 	</div>
 
 
 	<div class="wrapper vertical">
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/sushi.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/cake.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/takoyaki.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 	</div>
 	
 	<div class="wrapper vertical">
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/sewing.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/snowmen.png">
-		</div>
+		<img class="shrinkWrap" src="images/image.png">
+		</div class="baseImage">
 
-		<div>
+		<div class="baseImage">
 		<img class="" src="images/prints/baubles.png">
+		<img class="shrinkWrap" src="images/image.png">
 		</div>
 	</div>
 
